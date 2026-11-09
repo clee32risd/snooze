@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: rgb(11, 13, 22);
+  /* every page fades in slowly, like opening your eyes */
+  animation: fadeIn 1.2s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+canvas {
+  display: block;
+}
+
+.text {
+  position: absolute;
+  bottom: 28px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 16px;
+  color: rgba(225, 222, 255, 0.7);
+}
